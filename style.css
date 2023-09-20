@@ -7,31 +7,20 @@ header{
 color:darkcyan;
 text-align:center;
 text-decoration:wavy
-
-
 }
 
 footer{
 color:grey;
 display:flex;
 justify-content: space-around;
-
 }
 
-.addButton{
-height:21.2px;
 
-
-background-image:url("./assets/plus.png");
-background-size: contain;
-margin-top: 8px;
-
-}
 #container{  
 display:flex;
 flex-direction: column;
 justify-content: space-between;
-width:80vw;
+width:50vw;
 margin-left:10vw;
 background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
     url("https://png.pngtree.com/background/20210717/original/pngtree-leaf-background-dark-light-color-picture-image_1444203.jpg");

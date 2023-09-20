@@ -43,12 +43,6 @@ counter.innerHTML=tasks.length;
 
 }
 
-toggleTask=(taskId)=>{
-    let newlist=tasks.filter((task)=>{
-        task.id!=taskId
-    });
-
-}
 // function to delete task
 function deleteTask(taskId){
     let newlist=tasks.filter((task)=>{
@@ -68,7 +62,7 @@ toggleDone=(taskId)=>{
         return task.id==taskId
 });
 
-//if taskId i sfound
+//if taskId isfound
 if(newlist.length>0){
     currTask=newlist[0];
 currTask.done=!currTask.done;

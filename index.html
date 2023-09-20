@@ -1,0 +1,55 @@
+
+<html>
+<head>
+<title>
+ToDo List
+</title>
+<link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/en/2/2a/Notepad.png">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"  />
+<link rel="stylesheet" type="text/css" href="./style.css">
+
+
+</head>
+<body>
+<div id="container">
+
+    <!-- hey , thats my heading -->
+    <header>
+        <h1 class="animate__animated animate__bounce"><i class="fa  fa-calendar-check" ></i> &nbsp;TO-DO List</h1> 
+    </header>  
+
+    <!-- Task input and List are here-->
+
+    <div id="inputTask"> 
+        <h2>
+            <input type="text" id="add" name="task" placeholder="Enter next task">
+        </h2>  
+
+        <ul id="ulTaskList">
+
+        </ul>
+        
+    </div>
+
+
+ <!-- lets add Total remaining and Date-->
+    <footer >
+        <span id="total-tasks">Total tasks: 
+            <span id="tasks-counter">0
+            </span>
+        </span>
+        <span id ="time"> </span>
+    </footer>
+</div>
+ <!-- code ended , script tag begins-->
+
+<script src="./script.js" >
+</script>
+
+</body>
+</html>
+

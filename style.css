@@ -1,0 +1,83 @@
+
+body{
+margin-top:50px;
+}
+
+header{
+color:darkcyan;
+text-align:center;
+text-decoration:wavy
+
+
+}
+
+footer{
+color:grey;
+display:flex;
+justify-content: space-around;
+
+}
+
+.addButton{
+height:21.2px;
+
+
+background-image:url("./assets/plus.png");
+background-size: contain;
+margin-top: 8px;
+
+}
+#container{  
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+width:80vw;
+margin-left:10vw;
+background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url("https://png.pngtree.com/background/20210717/original/pngtree-leaf-background-dark-light-color-picture-image_1444203.jpg");
+
+background-size: contain;
+text-align: center;  
+border:1px solid black;
+border-radius: 5px;
+padding:0 5px 0 5px;
+
+}
+
+#inputTask{
+border:1px solid grey;  
+
+}
+
+#inputTask input{
+border-radius:10px; 
+padding-left:5px;
+}
+#ulTaskList{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    list-style-type:none;
+}
+#ulTaskList li{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:5px;
+    :hover {
+    
+        background: #f3f3f3;
+      }
+}
+
+  #ulTaskList li label{
+    cursor: pointer;
+  }
+  
+  #ulTaskList input:checked + label {
+    text-decoration: line-through;
+  }
+
+
+
